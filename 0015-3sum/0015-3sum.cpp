@@ -20,9 +20,9 @@ public:
             else{
                 ans.push_back({nums[i],nums[j],nums[k]});
                 j++;
-                k--;
+                // k--;
             while(nums[j]==nums[j-1] && j<k) j++;
-             while (j < k && nums[k] == nums[k + 1]) k--;
+             // while (j < k && nums[k] == nums[k + 1]) k--;
         }
     }
         } 
